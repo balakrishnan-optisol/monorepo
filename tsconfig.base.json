@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@monorepo/common": ["libs/common/src/index.ts"]
+      "@monorepo/common": ["libs/common/src/index.ts"],
+      "@monorepo/common-be": ["libs/common-be/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
